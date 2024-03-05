@@ -356,6 +356,8 @@ def question10():
     # type: string
     answers["(c)"] = "I favor DBSCAN clustering because it is versatile enough to be applied in both high and low-density areas, and it can effectively handle datasets with irregular shapes."
 
+    return answers
+
 # --------------------------------------------------------
 if __name__ == '__main__':
     answers_dict = {}
