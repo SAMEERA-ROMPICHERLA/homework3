@@ -116,13 +116,13 @@ def question4():
     answers = {}
 
     # type: int
-    answers["(a) Circle (a)"] = 0
+    answers["(a) Circle (a)"] = 1
 
     # type: int
     answers["(a) Circle (b)"] = 1
 
     # type: int
-    answers["(a) Circle (c)"] = 2
+    answers["(a) Circle (c)"] = 1
 
     # type: explanatory string (at least four words)
     answers["(a) explain"] = "Because clusters A and B contain an equal number of points (100 points each), one centroid will be drawn towards cluster A. Consequently, the right side of cluster B (comprising 2/3rd of the portion) will now host the remaining two centroids. On the other hand, despite its initial absence, cluster C, with its significantly larger number of points (100,000 points), ensures the retention of a centroid due to its stronger gravitational pull. Additionally, the even distribution of points in clusters A and B implies that each cluster should attract a centroid owing to their comparable influence."
